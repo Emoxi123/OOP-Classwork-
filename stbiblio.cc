@@ -61,6 +61,11 @@ for(auto it = l1.begin(); it != l1.end(); ++it){
 	int a[] = {0,1,2,3,4,5,6,7,8,9};
 
 	list<int> l4(a, a+10);
+	print_list(l4);
+	
+	print_list(l1);
+	list<int>l5(l1.begin(), l1.end());
+	print_list(l5);
 	
 
 	return 0;
@@ -69,5 +74,4 @@ for(auto it = l1.begin(); it != l1.end(); ++it){
 
 
 } 
-
 
